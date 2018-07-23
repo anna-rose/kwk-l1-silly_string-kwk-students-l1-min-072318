@@ -1,6 +1,4 @@
 puts "cinnamon"
-# Challenge 1: Fill this string in with your favorite word
-
 your_favorite_word = "cinnamon"
 
 puts "My favorite word is #{your_favorite_word}"
@@ -17,7 +15,7 @@ phrase = "IM NOT SHOUTING"
 
 lowercased_phrase = phrase # Put a . after phrase and use a String method.
 
-puts lowercased_phrase
+puts #{phrase}.downcase
 
 # Challenge 4: Count how many letters are in that big_word
 
